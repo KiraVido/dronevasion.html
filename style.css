@@ -1,0 +1,127 @@
+header {
+    height: 150px;
+    background-color: rgb(169, 199, 209);
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 120px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+/* Menu horizontal */
+.menu-horizontal {
+    background-color: #252323;
+    display: flex;
+    justify-content: center;
+}
+/* couleur du texte */
+.menu-horizontal a {
+    color: rgb(243, 240, 240);
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+/* Zone principale */
+.conteneur {
+    display: flex;
+}
+
+/* Menu à gauche */
+.menu-gauche {
+    width: 200px;
+    background-color: #eeeeee;
+    min-height: 500px;
+    padding: 20px;
+}
+/* titres a gauche */
+.menu-gauche a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+
+
+
+
+/* titre sur page drones loisir */
+.titre-loisirs {
+    color: dark grey;
+    text-align: center;
+}
+
+/* le footer/pied de page */
+.pied-de-page {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.pied-de-page a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.pied-de-page a:hover {
+    text-decoration: underline;
+}
+
+.pied-de-page p {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+/* ========================= CONTENU PRINCIPAL ========================= */ 
+.contenu-principal { flex: 1; padding: 50px; text-align: center; background-color: white; }
+ /* ========================= GRANDE INTRODUCTION ========================= */ 
+ .hero { max-width: 800px; margin: 0 auto 30px auto; } .hero h1 { font-size: 38px; margin-bottom: 15px; }
+  .hero p { font-size: 18px; line-height: 1.6; margin-bottom: 25px; } 
+  /* ========================= BOUTON ========================= */ 
+  .bouton { display: inline-block;
+     padding: 13px 28px; background-color: #222;
+      color: white; text-decoration: none;
+       border-radius: 30px; font-weight: bold; transition: 0.3s; }
+   .bouton:hover
+    { transform: translateY(-3px); }
+     /* ========================= GRANDE IMAGE ========================= */ 
+     .image-principale { width: 80%; 
+        max-width: 750px; height: 300px;
+         object-fit: cover; border-radius: 20px;
+          margin: 20px auto 45px auto; display: block; }
+           /* ========================= PROMOTIONS ========================= */ 
+           .promotions h2 { font-size: 28px; margin-bottom: 25px; } 
+           .cartes-promotions { display: flex; 
+            justify-content: center; gap: 25px; 
+            flex-wrap: wrap; } 
+            /* ========================= CARTE ========================= */
+             .carte-promo { position: relative;
+                 width: 260px; padding: 30px; 
+                 border-radius: 18px; background-color: #f5f5f5;
+                  text-align: left; transition: 0.3s; } 
+                  /* Animation quand on passe la souris */ 
+                  .carte-promo:hover { transform: translateY(-7px); } 
+                  /* Titre de la carte */ 
+                  .carte-promo h3 { font-size: 22px;
+                     margin-top: 25px; } 
+                     /* Texte */
+                      .carte-promo p { line-height: 1.5; }
+                       /* Lien */ 
+                       .carte-promo a { display: inline-block;
+                         margin-top: 10px; color: #222; 
+                         font-weight: bold; text-decoration: none; } 
+                         /* ========================= BADGE PROMOTION ========================= */
+                          .badge { display: inline-block;
+                             padding: 6px 12px; border-radius: 20px;
+                              background-color: #222;
+                               color: white; font-size: 13px; 
+                               font-weight: bold; }
